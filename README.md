@@ -168,10 +168,12 @@ O sistema implementa encerramento gracioso para garantir que todas as requisiç�
 1. **Porta em Uso**:
    - Verifique se a porta 8888 está disponível
    - Altere a porta no arquivo `app.py` se necessário
-   - ```sh
+   - 
+   ```sh
     netstat -ano | findstr :8888
    ```
-   - ```sh	
+   - 
+   ```sh	
    taskkill /PID <PID> /F
    ```
 
